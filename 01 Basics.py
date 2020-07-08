@@ -6,7 +6,7 @@ age  = 24.0
 print(2 ** 3)               # 8
 print(10 // 3)              # returns an integer = 3
 
-### TYPES
+### VARIABLE METHODS
 type(name)
 len(name)
 print(type(name),len(name))           # returns <class 'str'> and the size of name
