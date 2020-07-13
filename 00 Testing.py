@@ -1,12 +1,21 @@
 
 
+### Exercise 1
 
-mystring = "vitor rodrigues"
+my_str = "MICHIGAN"
 
-string = mystring.split()
+for str in my_str:
+    print(str)
 
-print(string)
+
+### Exercise 2
+several_things = ["hello", 2, 4, 6.0, 7.5, 234352354, "the end", "", 99]
+
+for elements in  several_things:
+    print(elements)
+
+for elements in several_things:
+    print(type(elements))
 
 
-for num in list(range(7)):
-    print(num, "% 7 = ", num % 7)
+### Exercise 3
