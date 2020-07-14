@@ -4,5 +4,5 @@ After having learned Swift, Python will be my next programming language! In this
 
 
 
-As an Automation Engineeriring studen I recognize that Python will be important for my career path.
+As an Automation Engineeriring student I recognize that Python will be important for my career path.
 

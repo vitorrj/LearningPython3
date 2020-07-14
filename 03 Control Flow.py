@@ -31,10 +31,3 @@ numbs = 0
 for _ in str1:
     numbs += 1
 print(numbs)
-
-
-### IF AND ELSE
-
-
-### WHILE
-
