@@ -28,3 +28,10 @@ print("------ WRITING ------")
 # myfile = open(path, "w")                          # if the file does not exist, it will create one
 # myfile.write(myfile + "Ciao, mondo!")
 # myfile.close()
+
+### avoiding .close() and using with
+
+with open(path, 'r') as myfile:                     # 'with' makes easier to open files
+    for text in myfile:
+        print(text)
+
