@@ -6,10 +6,12 @@ for i in range(5):
     print(i)               # 0 1 2 3 4
 
 
-### FOR
+# | ------------------ |
+# | ------- FOR ------ |
+# | ------------------ |
+
 for _ in range(3):
     print("Hello, Vitor!")
-
 
 ##### Printing a list
 myParty = ["Vitor", "Marghie", "Seba", "Giuseppe"]
@@ -31,3 +33,20 @@ numbs = 0
 for _ in str1:
     numbs += 1
 print(numbs)
+
+# | ------------------ |
+# | ------ WHILE ----- |
+# | ------------------ |
+print("----- While -----")
+
+x = 1
+while x <= 3:
+    print(x)
+    x += 1
+
+### break and continue
+while x < 10:
+    if x%2 == 0:
+        x += 2
+        print(x)
+        continue
