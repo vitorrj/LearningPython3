@@ -42,3 +42,24 @@ def myfunction(x,y):
 
 mytupple = (1,4)
 print(myfunction(*mytupple))            # tupple unpacking
+
+
+### Setting up functions with optionals parameters
+def myfunction(string, x = 2):
+    return print(x * string)
+
+myfunction("Vitor ")               # If I don't specify it returns the value I set
+myfunction("Vitor ", 4)
+
+### Keywords parameters / Skipping one of the parameters
+def myfunction(string, y = 1, x = 2):
+    return print(string * y * x)
+
+myfunction("Skipping y ", x = 4)            # keyword parameter
+
+### Lambda expressione
+
+mylambdafunction = lambda x: x*6
+print(mylambdafunction(2))                      # lamba functions always returns something ANKI
+
+
