@@ -1,4 +1,7 @@
-### LISTS
+# | ------------------ |
+# | -- DICTIONARIES -- |
+# | ------------------ |
+
 mylist = [24, "apple", 1984.0, "vitor"]
 print(mylist[-1])           # "vitor" the last element of the list
 print(len(mylist))          # 2 elements

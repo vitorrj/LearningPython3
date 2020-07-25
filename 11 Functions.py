@@ -55,7 +55,7 @@ myfunction("Vitor ", 4)
 def myfunction(string, y = 1, x = 2):
     return print(string * y * x)
 
-myfunction("Skipping y ", x = 4)            # keyword parameter
+myfunction("Skipping y ", x = 4)                # keyword parameter
 
 ### Lambda expressione
 

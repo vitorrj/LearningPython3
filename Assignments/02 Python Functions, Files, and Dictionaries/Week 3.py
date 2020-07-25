@@ -43,6 +43,7 @@ def sum(num):
     return divide(num) + 6
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------- #
+
 # EXERCISE 1
 # Create a tuple called olympics with four elements: “Beijing”, “London”, “Rio”, “Tokyo”.
 olympics = ("Beijing", "London", "Rio", "Tokyo")
