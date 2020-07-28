@@ -1,6 +1,5 @@
 import random
 
-
 number = random.random()
 print(number)                   # returns a random floating number
 
