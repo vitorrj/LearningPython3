@@ -37,3 +37,10 @@ print(mynewlist)
 
 ### Reverse sorting
 print(sorted(mynewlist, reverse = True))
+
+# Zip
+list1 = [1,2,3]
+list2 = [3,4,5]
+
+sumlist = list(zip(list1,list2))
+print(sumlist)
