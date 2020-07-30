@@ -8,6 +8,6 @@ As an Automation Engineeriring student I recognize that Python will be important
 ### Coursera courses
 - [x] Python basics
 - [x] Python Functions, Files, and Dictionaries
-- [ ] Data Collection and Processing with Python
+- [X] Data Collection and Processing with Python
 - [ ] Python Classes and Inheritance
 - [ ] Python Project: pillow, tesseract, and opencv)

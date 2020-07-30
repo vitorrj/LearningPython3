@@ -1,7 +1,6 @@
 mylist = [1,2,3]
 print("------ My list ------ \n", mylist, "\n---------------------\n")
 
-
 ### Adding items to the llist
 mylist.append(2020)                 # it's the same as concatenation mylist = mylist + [2020]
 print(mylist)                       # [1, 2, 3, 2020]

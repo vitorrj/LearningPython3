@@ -17,10 +17,12 @@ page2 = requests.get("https://api.datamuse.com/words", params = requestsParamete
 
 ### Passing to text
 print(page.text[:94])
+print(page.url)
 print(page2.text[:94])                                                  # same request
 #print(textFromPage)
 
 ### or alternatively we can parse in json
 textFromPageInJson = page.json()
+print(type(textFromPageInJson))
 print(len(textFromPageInJson))
 #print(json.dumps(textFromPageInJson, indent=2))
