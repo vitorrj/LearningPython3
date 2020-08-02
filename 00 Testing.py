@@ -1,19 +1,19 @@
-tester = {'info': [
-    {"name": "Lauren", 'class standing': 'Junior', 'major': "Information Science"},
-    {'name': 'Ayo', 'class standing': "Bachelor's", 'major': 'Information Science'},
-    {'name': 'Kathryn', 'class standing': 'Senior', 'major': 'Sociology'},
-    {'name': 'Nick', 'class standing': 'Junior', 'major': 'Computer Science'},
-    {'name': 'Gladys', 'class standing': 'Sophomore', 'major': 'History'},
-    {'name': 'Adam', 'major': 'Violin Performance', 'class standing': 'Senior'}]
-}
+class Person:
+  def __init__(self, name, surname):
+    self.name = name
+    self.surname = surname
 
+  def printname(self):
+    print(self.name, self.surname)
 
-print(tester.keys())
-myInformation = tester['info']
-print(myInformation[0])
+#Use the Person class to create an object, and then execute the printname method:
 
-compri = [print(key) for key in myInformation if key == 'name']
+x = Person("Vitor", "Rodrigues")
+x.printname()
 
+class Student(Person):
+    def __init__(self, age,name,surname):
+        Person.__init__(self,name,surname)
+        self.age = age
 
-compri = [key['name'] for key in myInformation]
-print(compri)
+y = Student(24, "Vitor", "Rodrigues")
