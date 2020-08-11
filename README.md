@@ -10,4 +10,4 @@ As an Automation Engineeriring student I recognize that Python will be important
 - [x] Python Functions, Files, and Dictionaries
 - [X] Data Collection and Processing with Python
 - [X] Python Classes and Inheritance
-- [ ] Python Project: pillow, tesseract, and opencv)
+- [x] Python Project: pillow, tesseract, and opencv)
